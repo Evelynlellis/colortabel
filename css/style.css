@@ -1,0 +1,40 @@
+/* Resetar as configuraçoes do navegador */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    background-image: -o-linear-gradient(rgb(201, 103, 119) );
+}
+
+main{
+    display: flex;  
+    justify-content:space-between;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+.box {
+    width:300px;
+    height: 300px;
+    border: 2px solid;
+    text-align: center;
+}
+
+#pink {
+    background-color: rgb(226, 66, 133);
+}
+
+#purple {
+    background-color: rgb(190, 0, 228);
+}
+
+#blue {
+    background-color: rgb(78, 78, 250);
+}
+
+#green {
+    background-color: rgb(109, 219, 109);
+}
